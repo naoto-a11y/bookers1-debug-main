@@ -34,7 +34,7 @@ class BooksController < ApplicationController
       redirect_to book_path(@book.id)
     else
       flash[:notice] = "no"
-      render :ed
+      render :edit
     end
   end
 
